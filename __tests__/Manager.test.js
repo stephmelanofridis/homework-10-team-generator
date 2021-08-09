@@ -21,7 +21,7 @@ describe("Manager", () => {
 
     describe("getOfficeNumber", () => {
         it("Should return office number", () => {
-            expect(new Manager("Steph", 1, "stephmelanofridis@bigpond.com", 5).getOfficeNumber()).toBe(1);
+            expect(new Manager("Steph", 1, "stephmelanofridis@bigpond.com", 1).getOfficeNumber()).toBe(1);
         })
     })
     describe("getRole", () => {

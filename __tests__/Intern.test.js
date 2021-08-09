@@ -1,6 +1,6 @@
 const Intern = require("../lib/Intern.js");
 
-decribe("Intern", () => {
+describe("Intern", () => {
     describe("getName", () => {
         it("Should return name", () => {
             expect(new Intern("Steph", 1, "stephmelanofridis@bigpond.com", "University of Sydney").getName()).toBe("Steph");
